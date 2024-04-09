@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "job-portal",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,26 +10,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.5.2",
     "localforage": "^1.10.0",
-    "match-sorter": "^6.3.4",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "react-router-dom": "^6.22.2",
-    "sort-by": "^1.2.0"
+    "react-hook-form": "^7.47.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0",
+    "react-select": "^5.7.7",
+    "sort-by": "^1.2.0",
+    "sweetalert2": "^11.9.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "install": "^0.13.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.1.4"
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.5"
   }
 }
