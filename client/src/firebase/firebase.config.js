@@ -5,12 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_APIKEY,
-  authDomain: import.meta.env.VITE_AUTHDOMAIN,
-  projectId: import.meta.env.VITE_PROJECTID,
-  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
-  appId: import.meta.env.VITE_APPID
+  apiKey: "AIzaSyA7l_eFwU0h_HnKKy1VfqJDCHyiufNgZV8",
+  authDomain: "job-portal-57ef4.firebaseapp.com",
+  projectId: "job-portal-57ef4",
+  storageBucket: "job-portal-57ef4.appspot.com",
+  messagingSenderId: "1027493800490",
+  appId: "1:1027493800490:web:d46f0667a1d1482b1e3153",
+  measurementId: "G-QWEJE2XSWT"
 };
 
 // Initialize Firebase
